@@ -1,0 +1,57 @@
+html {
+    font-family: "OpenSans",Arial,Helvetica,sans-serif;
+    line-height: 1.5;
+    color: #333333;
+}
+.header__container_top {
+    background: #F7F8FA;
+}
+.header-text{
+    font-weight: bolder;
+    color: black;
+
+}
+.logo{
+    height: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.bg-IN {
+    background-image: url("images/nation-flag-bg.png");
+    background-position: -271PX -105PX;
+    width: 33PX;
+    height: 20PX;
+    border-radius: 10PX;
+
+    background-position: 46PX 21PX;
+    background-size: 429PX;
+   
+}
+.bg-grey{
+    background-color: #F0F0F0;
+}
+.form-padding{
+    padding-top: 3%;
+    padding-left: 10%;
+}
+.img-width{
+    width: 40%;
+}
+.error{
+    color:red;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    text-decoration: underline black;
+    font-size: 20px !important;
+    transition: font-size  ease-in 0.4s;   
+    cursor:pointer;
+}
+
+i:hover{
+    font-size: 30px !important;
+    color:orange !important;
+    transition: color 0.7s ease-in,font-size 0.2s ease-in-out 0.2s; 
+    
+}
